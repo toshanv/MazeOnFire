@@ -1,0 +1,31 @@
+\BOOKMARK [1][-]{section.1}{Maze on Fire}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Problem 1}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Generating a maze}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Rendering a maze}{subsection.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.2}{Problem 2}{section.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Our DFS Algorithm}{subsection.1.2}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Why is DFS a better choice than BFS here?}{subsection.1.2}% 7
+\BOOKMARK [3][-]{subsubsection.1.2.3}{Obstacle Density p vs. Probabilty that S can be reached from G}{subsection.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.3}{Problem 3}{section.1}% 9
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Our BFS Algorithm}{subsection.1.3}% 10
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Our A* Algorithm}{subsection.1.3}% 11
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Number of nodes explored by BFS - number of nodes explored by A* vs. obstacle density p}{subsection.1.3}% 12
+\BOOKMARK [3][-]{subsubsection.1.3.4}{If there is no path from S to G, what should this difference be?}{subsection.1.3}% 13
+\BOOKMARK [2][-]{subsection.1.4}{Problem 4}{section.1}% 14
+\BOOKMARK [3][-]{subsubsection.1.4.1}{What's the largest dimension you can solve using DFS at p=0.3 in less than a minute?}{subsection.1.4}% 15
+\BOOKMARK [3][-]{subsubsection.1.4.2}{What's the largest dimension you can solve using BFS at p=0.3 in less than a minute?}{subsection.1.4}% 16
+\BOOKMARK [3][-]{subsubsection.1.4.3}{What's the largest dimension you can solve using A* at p=0.3 in less than a minute?}{subsection.1.4}% 17
+\BOOKMARK [3][-]{subsubsection.1.4.4}{Consider, as you solve these three problems, simple diagnostic criteria to make sure you areon track. The path returned by DFS should never be shorter than the path returned by BFS.The path returned by A* should not be shorter than the path returned by BFS. How big can andshould your fringe be at any point during these algorithms?}{subsection.1.4}% 18
+\BOOKMARK [1][-]{section.2}{Part 2 Maze on Fire}{}% 19
+\BOOKMARK [2][-]{subsection.2.1}{Generating a maze}{section.2}% 20
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Expanding the fire}{subsection.2.1}% 21
+\BOOKMARK [2][-]{subsection.2.2}{Strategy 1, No Strategy}{section.2}% 22
+\BOOKMARK [2][-]{subsection.2.3}{Strategy 2, Recompute Path at Every Step}{section.2}% 23
+\BOOKMARK [2][-]{subsection.2.4}{Problem 5 - Strategy 3, Future Risk Adjusted Path \(FRAP\)}{section.2}% 24
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Describe your improved Strategy 3. How does it account for the unknown future?}{subsection.2.4}% 25
+\BOOKMARK [2][-]{subsection.2.5}{Problem 6}{section.2}% 26
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Plot, for Strategy 1, 2, and 3, a graph of `average strategy success rate' vs `flammability q' at p = 0.3. Where do the different strategies perform the same? Where do they perform differently? Why?}{subsection.2.5}% 27
+\BOOKMARK [2][-]{subsection.2.6}{Problem 7}{section.2}% 28
+\BOOKMARK [3][-]{subsubsection.2.6.1}{If you had unlimited computational resources at your disposal, how could you improve on Strategy 3?}{subsection.2.6}% 29
+\BOOKMARK [2][-]{subsection.2.7}{Problem 8}{section.2}% 30
+\BOOKMARK [3][-]{subsubsection.2.7.1}{If you could only take ten seconds between moves \(rather than doing as much computation as you like\), how would that change your strategy? Describe such a potential Strategy 4.}{subsection.2.7}% 31
